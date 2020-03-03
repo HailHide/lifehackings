@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'awesome_free_fawesomefreefont';
+    src: url('fonts/awesome/awesome_free_font-webfont.woff2') format('woff2'),
+         url('fonts/awesome/awesome_free_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('fonts/bk/sourcesanspro-black-webfont.woff2') format('woff2'),
+         url('fonts/bk/sourcesanspro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('fonts/bk/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('fonts/bk/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futuraextra_black_italic';
+    src: url('fonts/supreme/tt0205m_-webfont.woff2') format('woff2'),
+         url('fonts/supreme/tt0205m_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+nav .navbar-brand {
+    font-family: 'awesome_free_fawesomefreefont';
+    font-size: 1.6em;
+    font-weight: 666;
+    color: #fff;
+    animation: animate 0.5s linear infinite;
+}
+
+ @keyframes animate {
+            0%,100%
+            {
+                text-shadow: -1px -1px 0 #0ff,1px
+                1px 0 #f00;
+            }
+            25%
+            {
+                text-shadow: 1px 1px 0 #0ff,-1px
+                -1px 0 #f00;
+            }
+            50%
+            {
+                text-shadow: 1px -1px 0 #0ff,-1px
+                1px 0 #f00;
+            }
+            75%
+            {
+                text-shadow: -1px -1px 0 #0ff,-1px
+                -1px 0 #f00;
+            }
+        }
+
+#navbarNav {
+    font-family: 'source_sans_problack';
+}
