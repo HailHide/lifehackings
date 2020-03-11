@@ -96,31 +96,8 @@ h2 #speedread {
     font-size: 3em;
     font-weight: 666;
     color: #000;
-    animation: animate1 0.5s linear infinite;
+    /*animation: animate1 0.5s linear infinite;*/
 }
-
- /*@keyframes animate1 {
-            0%,100%
-            {
-                text-shadow: -1.5px -1.5px 0 #0ff,1.5px
-                1.5px 0 #f00;
-            }
-            25%
-            {
-                text-shadow: 1.5px 1.5px 0 #0ff,-1.5px
-                -1.5px 0 #f00;
-            }
-            50%
-            {
-                text-shadow: 1.5px -1.5px 0 #0ff,-1.5px
-                1.5px 0 #f00;
-            }
-            75%
-            {
-                text-shadow: -1.5px -1.5px 0 #0ff,-1.5px
-                -1.5px 0 #f00;
-            }
-        }*/
 
 .collapse-content .fa.fa-heart:hover {
   color: #f44336 !important;
