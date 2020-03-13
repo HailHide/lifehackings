@@ -91,7 +91,7 @@ header {
     animation: animate 0.5s linear infinite;
 }
 
-h2 #speedread, a {
+h2 #speedread {
     font-family: 'source_sans_problack';
     font-size: 3em;
     font-weight: 666;
