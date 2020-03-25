@@ -99,6 +99,10 @@ h2 #speedread {
     /*animation: animate1 0.5s linear infinite;*/
 }
 
+#speedread > h2 {
+    text-align: center;
+}
+
 .collapse-content .fa.fa-heart:hover {
   color: #f44336 !important;
 }
