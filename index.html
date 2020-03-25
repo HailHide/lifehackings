@@ -23,9 +23,8 @@
 <body>
 
 <!-- Barre de navigation -->
-
-<nav class="navbar navbar-expand-sm navbar-light bg-light" id="nanana">
-  <a class="navbar-brand" href="#"><img src="img/logo_mini.png" id="logogo"/>LifeHackings</a>
+<nav class="navbar navbar-expand-sm navbar-light bg-light" id="LifeBar">
+  <a class="navbar-brand" href="#"><img src="img/logo.png" id="logo"/>LifeHackings</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -47,17 +46,18 @@
 </nav>
 
 <!-- Fin barre de navigation -->
-<header>
-	<br>
-	<h1 style="text-align: center; ">Astuces pour s'améliorer</h1><br>
-</header>
-<main>
+<div class="jumbotron jumbotron-fluid">
+  <div>
+  	<h1 class="display-4">Astuces pour s'améliorer</h1><br>
+  </div>
+</div>
+<main class="container-fluid">
 <div class="accordion" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          <h2 id="speedread" style="text-decoration: none;">Améliorez votre vitesse de lecture ! <img src="img/menu_book-24px.svg" alt="love" height="72px" style="margin-top: -17px;" /></h2>
+          <h2 id="speedread">Améliorez votre vitesse de lecture ! <img src="img/icons/menu_book-24px.svg" alt="icone livre" height="72px" style="margin-top: -17px;" /></h2>
         </button>
       </h2>
     </div>
@@ -89,14 +89,14 @@
         <ol>
         	<li><p>La première étape <strong style="text-decoration: underline;">essentielle</strong> consiste à réduire les mouvements oculaires.<br>
             Bouger les yeux le long d’une ligne puis passer à la suivante tel qu'illustré sur la figure ci-dessous :<br>
-            <figure style="width: 100%; height: auto; max-width: 333px; margin-top: -5px; border: 1px solid black;">
-            	<img src="img/lecture_rapide.jpg" alt="Mouvements oculaires de la lecture rapide" style="width: 100%; height: auto; max-width: 333px;"/>
-                <figcaption style="margin-left: 17px; margin-top: -22px; text-decoration: underline;">Mouvements oculaires de la lecture rapide</figcaption>	
+            <figure id="Lecture_Rapide_1">
+            	<img src="img/Lecture_Rapide/lecture_rapide.jpg" alt="Mouvements oculaires de la lecture rapide"/>
+                <figcaption id="Lecture_Rapide_1Bis">Mouvements oculaires de la lecture rapide</figcaption>	
             </figure>
             <span>Vous pouvez également entraîner vous yeux en regardant cette animation quelques minutes :</span><br>
-            <figure style="margin-top: 7px;">
-            	<img src="img/lecture_rapide.gif" alt="Entrainement occulaire"/>
-            	<figcaption style="margin-left: 10px;margin-top: -7px;text-decoration: underline;">Entrainement occulaire</figcaption>
+            <figure id="Lecture_Rapide_2">
+            	<img src="img/Lecture_Rapide/lecture_rapide.gif" alt="Entrainement occulaire"/>
+            	<figcaption id="Lecture_Rapide_3">Entrainement occulaire</figcaption>
             </figure>
             </p></li>
 
@@ -113,20 +113,20 @@
         <p>Pour aller plus loin, je vous recommande les outils suivants :
         <ul style="list-style-type: none">
         	<li><p>
-        	<img src="img/link-24px.svg" alt="" height="24px"/> <a href="https://www.zapreader.com/reader/" target="_blank" style="color: #ea1c2c;" id="zapreader">ZapReader</a> propose un outil <strong>gratuit</strong> permettant de tester une vitesse de lecture et à s’entraîner à lire plus vite.<br>
+        	<a href="https://www.zapreader.com/reader/" target="_blank" id="zapreader">ZapReader</a> propose un outil <strong>gratuit</strong> permettant de tester une vitesse de lecture et à s’entraîner à lire plus vite.<br>
         	Le texte défile mot-à-mot et cela permet de s'habituer <strong style="text-decoration: underline;">à ne pas <em>subvocaliser</em></strong>.<br>
         	J’ai voulu tester la vitesse d’Anne Jones à 4200 mots par minute, c’est inhumain ! <img src="img/emoji/haha.svg" alt="haha emoji" height="22px"/><br>
         	<span id="spoiler" style="border-radius: 5px">Le site propose une application payante et des programmes d’entraînement, mais ne l’ayant pas testé je ne sais pas ce que ça vaut.</span>
         	</p></li>
 
         	<li><p>
-        	<img src="img/link-24px.svg" alt="" height="24px"/> <a href="https://www.mes-exams.com/lecture-rapide/lecture-rapide-test.htm" target="_blank" style="color: #ea1c2c;">mes-exams.com</a> propose également un outil <strong>gratuit</strong> permettant de tester sa <em style="font-weight: 555">vitesse de lecture</em> ainsi que son niveau de <em style="font-weight: 555">compréhension globale</em> d'un texte. Ça vaut le détour <img src="img/emoji/love.svg" alt="haha emoji" height="22px" style="margin-left: -2px;" />
+        	<a href="https://www.mes-exams.com/lecture-rapide/lecture-rapide-test.htm" target="_blank" id="mes-exams">mes-exams.com</a> propose également un outil <strong>gratuit</strong> permettant de tester sa <em style="font-weight: 555">vitesse de lecture</em> ainsi que son niveau de <em style="font-weight: 555">compréhension globale</em> d'un texte. Ça vaut le détour <img src="img/emoji/love.svg" alt="haha emoji" height="22px" style="margin-left: -2px;" />
         	</p></li>
         </ul>
         </p>
         <br>
         <p>Merci d’avoir pris le temps de lire si c'est le cas, et j’espère que vous avez testé la méthode à travers la lecture de cet article <img src="img/emoji/ya.svg" alt="haha emoji" height="22px" style="margin-left: -2px;" /><br><br>
-        <span style="font-weight: 666">Hide</span> <img src="img/favorite-24px.svg" alt="love" height="22px"/>
+        <span style="font-weight: 666">Hide</span> <img src="img/icons/favorite-24px.svg" alt="love" height="22px"/>
         </p>
 	</p></article>
       </div>

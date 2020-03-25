@@ -36,7 +36,7 @@
 
 
 
-#nanana {
+#LifeBar {
     padding-bottom: 0;
     
 }
@@ -49,7 +49,7 @@ nav .navbar-brand {
     animation: animate 0.5s linear infinite;
 }
 
-#logogo {
+#logo {
     margin-top: -13px;
     margin-left: -7px;
 }
@@ -77,18 +77,17 @@ nav .navbar-brand {
             }
         }
 
-#navbarNav {
-    font-family: 'source_sans_problack';
-}
-
-header {
+.jumbotron  {
     background-image: url('img/eth.jpg');
     background-size: cover;
     font-family: 'source_sans_problack';
-    font-size: 1.6em;
     font-weight: 666;
     color: #fff;
     animation: animate 0.5s linear infinite;
+}
+
+.jumbotron > div > h1 {
+    text-align: center;
 }
 
 h2 #speedread {
@@ -115,4 +114,47 @@ h2 #speedread {
 #spoiler:hover{
   color: black;
   background-color:white; 
-  }
+}
+
+#Lecture_Rapide_1 {
+    width: 100%; 
+    height: auto; 
+    max-width: 333px; 
+    margin-top: -5px; 
+    border: 1px solid black;
+}
+
+#Lecture_Rapide_1 > img {
+    width: 100%; 
+    height: auto; 
+    max-width: 333px;
+}
+
+#Lecture_Rapide_1Bis {
+    margin-left: 17px; 
+    margin-top: -22px; 
+    text-decoration: underline;
+}
+
+#Lecture_Rapide_2 {
+    margin-top: 7px;
+}
+
+#Lecture_Rapide_3 {
+    margin-left: 10px;
+    margin-top: -7px;
+    text-decoration: underline;
+}
+
+ul > li > p > a {
+    color: #ea1c2c;
+    font-weight: 777;
+}
+
+ul > li > p > #zapreader:hover, ul > li > p > #mes-exams:hover {
+    text-decoration: none;
+}
+
+ul > li > p > #zapreader::before, ul > li > p > #mes-exams::before {
+    content: url("/icons/link-24px.svg");
+}
